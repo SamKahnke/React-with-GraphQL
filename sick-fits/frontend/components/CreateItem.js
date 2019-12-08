@@ -90,14 +90,15 @@ class CreateItem extends Component {
                             </label>
                             <label htmlFor="title">
                                 Title
-                                <input type="text"
+                                <input
+                                    type="text"
                                     id="title"
                                     name="title"
                                     placeholder="Title"
                                     required
                                     value={this.state.title}
                                     onChange={this.handleChange}
-                                    />
+                                />
                             </label>
                             <label htmlFor="price">
                                 Price
@@ -109,7 +110,7 @@ class CreateItem extends Component {
                                     required
                                     value={this.state.price}
                                     onChange={this.handleChange}
-                                    />
+                                />
                             </label>
                             <label htmlFor="description">
                                 Description
@@ -121,7 +122,7 @@ class CreateItem extends Component {
                                     required
                                     value={this.state.description}
                                     onChange={this.handleChange}
-                                    />
+                                />
                             </label>
                             <button type="submit">Submit</button>
                         </fieldset>
